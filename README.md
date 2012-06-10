@@ -23,3 +23,10 @@ Then enable the plugin in your projectConfiguration class:
         $this->enablePlugins('icCsvSafePlugin');
     }
 
+## Usage
+
+    <?php use_helper('CsvSafe') ?>
+    
+    <?php echo $tmplObj->getAttribute(ESC_CSVSAFE) ?>
+    
+    <?php echo esc_csvsafe($tmplVar->getRawValue()) ?>
