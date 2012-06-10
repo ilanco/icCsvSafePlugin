@@ -8,8 +8,7 @@ valid csv.
 
 ### Installation
 
-Using git submodules
------------------------------------
+#### Using git submodules
 
 Use this if you prefer to use git submodules for plugins:
 
